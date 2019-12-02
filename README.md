@@ -2,9 +2,12 @@
 ## Code from my blog on Haskell and AWS.
 ## See:
 
+``` shell
 $ stack build
 
 $ stack exec ec2-demo-exe
+```
+``` yaml
 [instance:i-01c05962b28857085] {
   public-dns = Just ec2-54-71-143-215.us-west-2.compute.amazonaws.com
   tags       = [Tag' {_tagKey = "costCenter", _tagValue = "testing"},Tag' {_tagKey = "Name", _tagValue = "development"}]
@@ -15,4 +18,4 @@ $ stack exec ec2-demo-exe
   tags       = [Tag' {_tagKey = "owner", _tagValue = "Nick"}]
   state      = running
 }
-
+```
