@@ -1,6 +1,6 @@
 # ec2-demo
 ## Code from my blog on Haskell and AWS.
-## See:
+## See: http://www.nickaws.net/aws/haskell/2019/12/01/Haskell-on-AWS.html
 
 ``` shell
 $ stack build
